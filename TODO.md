@@ -1,10 +1,10 @@
-# @craftled/pi-projects
+# pi-projects
 
 ## Done
 
 - [x] Create `~/Sites/craftled/pi-projects`
 - [x] Copy `/projects` extension to `index.ts`
-- [x] Add `package.json` (`@craftled/pi-projects`), README, LICENSE, `.gitignore`
+- [x] Add `package.json` (`pi-projects`), README, LICENSE, `.gitignore`
 
 ## Next
 
@@ -13,7 +13,8 @@
 - [x] `pi install` local path into global settings (`../../Sites/craftled/pi-projects`)
 - [x] `git init` and create https://github.com/craftled/pi-projects
 - [ ] Optional gallery preview (`pi.image` or `pi.video` in package.json)
-- [ ] Confirm npm login can publish to the `craftled` org (`@craftled/*`)
-- [ ] `npm pack --dry-run`
+- [x] Rename npm package to unscoped `pi-projects`
+- [ ] Confirm npm login (this machine is currently 401 / not logged in)
+- [x] `npm pack --dry-run` (4 files: index.ts, package.json, README, LICENSE)
 - [ ] `npm publish --access public`
 - [ ] Verify on npm and https://pi.dev/packages

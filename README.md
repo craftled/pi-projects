@@ -1,4 +1,4 @@
-# @craftled/pi-projects
+# pi-projects
 
 A Pi package that adds `/projects`: pick a **project directory** that already has Pi sessions, then start a new session there, resume the latest one, or delete that project's session files.
 
@@ -7,7 +7,7 @@ A Pi package that adds `/projects`: pick a **project directory** that already ha
 ## Install
 
 ```bash
-pi install npm:@craftled/pi-projects
+pi install npm:pi-projects
 ```
 
 Requires [Pi](https://pi.dev) 0.85 or later.

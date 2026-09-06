@@ -1,5 +1,5 @@
 {
-  "name": "@craftled/pi-projects",
+  "name": "pi-projects",
   "version": "0.1.0",
   "description": "Pi extension: /projects picker to switch, resume, or delete sessions by project directory",
   "type": "module",
