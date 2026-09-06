@@ -14,7 +14,7 @@
 - [x] `git init` and create https://github.com/craftled/pi-projects
 - [ ] Optional gallery preview (`pi.image` or `pi.video` in package.json)
 - [x] Rename npm package to unscoped `pi-projects`
-- [ ] Confirm npm login (this machine is currently 401 / not logged in)
+- [x] Confirm npm login as edgarasben
 - [x] `npm pack --dry-run` (4 files: index.ts, package.json, README, LICENSE)
-- [ ] `npm publish --access public`
-- [ ] Verify on npm and https://pi.dev/packages
+- [x] `npm publish --access public` (`pi-projects@0.1.0`)
+- [ ] Verify on https://pi.dev/packages (npm is live; gallery may lag)
