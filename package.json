@@ -1,0 +1,48 @@
+{
+  "name": "@craftled/pi-projects",
+  "version": "0.1.0",
+  "description": "Pi extension: /projects picker to switch, resume, or delete sessions by project directory",
+  "type": "module",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "pi-coding-agent",
+    "extension",
+    "projects",
+    "sessions"
+  ],
+  "author": {
+    "name": "Craftled",
+    "email": "support@craftled.com",
+    "url": "https://craftled.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/craftled/pi-projects.git"
+  },
+  "bugs": {
+    "url": "https://github.com/craftled/pi-projects/issues"
+  },
+  "homepage": "https://github.com/craftled/pi-projects#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "files": [
+    "index.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "check": "npm pack --dry-run"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": ">=0.85.0",
+    "@earendil-works/pi-tui": ">=0.85.0"
+  }
+}
